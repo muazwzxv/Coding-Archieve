@@ -1,4 +1,4 @@
-# Just a collection of all data structures I learnt
+## Just a collection of all data structures I learnt
 
 
 ## Data structures
