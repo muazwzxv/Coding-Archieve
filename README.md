@@ -4,10 +4,9 @@
 ## Data structures
 - [ ] ArrayList
 - [ ] LinkedList
-
-
-
-
+- [ ] Binary Tree & tree traversal
+  
+  
 ## Algorithm
 ### Sorting algorithm
 - [ ] Selection sort

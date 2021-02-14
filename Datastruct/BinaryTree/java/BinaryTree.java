@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class BinaryTree {
   Node root;
 
@@ -75,5 +75,75 @@ public class BinaryTree {
   // Helper methods for delete
   private int findSmallestNode(Node root) {
     return root.left == null ? root.val : findSmallestNode(root.left);
+  }
+
+  /**
+   * Traversing the tree
+   *
+   * 1) Depth first search
+   * - Traversal that goes deep as much as possible in every child before 
+   *   exploring the next sibling
+   *   - In order
+   *   - Pre order
+   *   - Post order
+   */
+
+  /**
+   * InOrder traversal
+   * - left, root, right
+   */
+  public void inOrder(Node node) {
+    if (node == null) return; 
+
+    inOrder(node.left);
+    System.out.println(" " + node.val);
+    inOrder(node.right);
+  }
+
+  /**
+   * preOrder traversal
+   * - root, left, right
+   */
+  public void preOrder(Node node) {
+    if (node == null) return; 
+
+    System.out.println(" " + node.val);
+    inOrder(node.left);
+    inOrder(node.right);
+  }
+
+  /**
+   * postOrder traversal
+   * - left, right, root
+   */
+  public void postOrder(Node node) {
+    if (node == null) return; 
+
+    inOrder(node.left);
+    inOrder(node.right);
+    System.out.println(" " + node.val);
+  }
+
+  /**
+   * Traversing the tree
+   *
+   * 2) Breadth first search
+   * - Traversal that visits all the nodes of a level before going to the next level 
+   */
+
+  public void bfsOrder(Node node) {
+    if (node == null) return;
+    
+    Queue<Node> visit = new LinkedList<>();
+    visit.add(node);
+
+    while (!visit.isEmpty()) {
+      Node temp = visit.remove();
+
+      System.out.println(" " + temp.val);
+
+      if (temp.left != null) visit.add(temp.left);
+      if (temp.right != null) visit.add(temp.right);
+    }
   }
 }
