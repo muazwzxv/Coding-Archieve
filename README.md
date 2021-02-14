@@ -1,10 +1,10 @@
 ## Just a collection of all data structures I learnt
 
-
 ## Data structures
 - [ ] ArrayList
 - [ ] LinkedList
 - [ ] Binary Tree & tree traversal
+- [ ] Graph & graph traversal
   
   
 ## Algorithm
