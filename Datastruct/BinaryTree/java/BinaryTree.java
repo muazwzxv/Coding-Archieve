@@ -92,7 +92,10 @@ public class BinaryTree {
    * InOrder traversal
    * - left, root, right
    */
-  public void inOrder(Node node) {
+  public void printInOrder() {
+    this.inOrder(this.root);
+  }
+  private void inOrder(Node node) {
     if (node == null) return; 
 
     inOrder(node.left);
@@ -104,7 +107,10 @@ public class BinaryTree {
    * preOrder traversal
    * - root, left, right
    */
-  public void preOrder(Node node) {
+  public void printPreOrder() {
+    this.preOrder(this.root);
+  }
+  private void preOrder(Node node) {
     if (node == null) return; 
 
     System.out.println(" " + node.val);
@@ -116,7 +122,10 @@ public class BinaryTree {
    * postOrder traversal
    * - left, right, root
    */
-  public void postOrder(Node node) {
+  public void printPostOrder() {
+    this.postOrder(this.root);
+  }
+  private void postOrder(Node node) {
     if (node == null) return; 
 
     inOrder(node.left);
