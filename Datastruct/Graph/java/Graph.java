@@ -79,6 +79,9 @@ class Graph {
     });
   }
 
+  /**
+   * Depth-First Traversal
+   */
   Set<String> dfsTraversal(Graph graph, String root) {
     Set<String> visited = new LinkedHashSet<String>();
     Stack<String> stack = new Stack<String>();
@@ -89,6 +92,27 @@ class Graph {
         visited.add(vertex);
         for (Vertex v: graph.getAdjVertices(vertex)) {
           stack.push(v.label);
+        }
+      }
+    }
+    return visited;
+  }
+
+  /**
+   * Breadth-First Traversal
+   */
+  Set<String> bfsTraversal(Graph graph, String root) {
+    Set<String> visited = new LinkedHashSet<String>();
+    Queue<String> queue = new LinkedList<String>();
+    queue.add(root);
+    visited.add(root);
+
+    while (!queue.isEmpty()) {
+      String vertex = queue.poll();
+      for (Vertex v: graph.getAdjVertices(vertex)) {
+        if (!visited.contains(v.label)) {
+          visited.add(v.label);
+          queue.add(v.label);
         }
       }
     }
