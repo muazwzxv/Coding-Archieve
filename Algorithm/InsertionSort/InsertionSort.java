@@ -22,3 +22,4 @@ public class InsertionSort {
       arr[point + 1]  = key;
     }
   }
+}
