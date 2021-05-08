@@ -25,7 +25,7 @@ func (self HuffmanNode) Frequency() int {
 	return self.freq
 }
 
-func (th treeHeap) Lens() int { return len(th) }
+func (th treeHeap) Len() int { return len(th) }
 func (th treeHeap) Less(i, j int) bool {
 	return th[i].Frequency() < th[j].Frequency()
 }
@@ -49,4 +49,13 @@ func buildTree(symFreqs map[rune]int) HuffmanTree {
 		trees = append(trees, HuffmanLeaf{f, c})
 	}
 	heap.Init(&trees)
+
+	for trees.Len() > 1 {
+		// Two trees with least frequency
+		a := heap.Pop(&trees).(HuffmanTree)
+		b := heap.Pop(&trees).(HuffmanTree)
+
+		// Put into new node and re-insert into queue
+		heap.Push(&trees, HuffmanNode(a.Frequency()))
+	}
 }
