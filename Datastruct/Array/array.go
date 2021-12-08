@@ -24,8 +24,11 @@ func (a *Array) pop() string {
 	return last
 }
 
-func (a *Array) delete() {
+func (a *Array) delete(index int64) string {
+	last := a.Data[a.Length-1]
+	a.shift(index)
 
+	return last
 }
 
 func (a *Array) shift(index int64) {
@@ -49,7 +52,7 @@ func main() {
 	arr.push("Name")
 	arr.push("is")
 	arr.push("muaz")
-	arr.pop()
+	arr.delete(1)
 	fmt.Println(arr)
 
 }
