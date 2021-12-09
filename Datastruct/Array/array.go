@@ -54,5 +54,4 @@ func main() {
 	arr.push("muaz")
 	arr.delete(1)
 	fmt.Println(arr)
-
 }
