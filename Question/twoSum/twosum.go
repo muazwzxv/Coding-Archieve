@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -11,22 +13,20 @@ func main() {
 
 func solve(arr []int, target int) []int {
 
-	var solution []int
-
 	if len(arr) == 0 || len(arr) == 1 {
 		return nil
 	}
 
+	store := make(map[int]int)
+
 	for i := 0; i < len(arr); i++ {
-		for j := i + 1; j < len(arr); j++ {
-			if target-arr[i] == arr[j] {
-				solution = append(solution, i, j)
-				return solution
-			}
-
-			continue
+		if val, found := store[arr[i]]; found {
+			return []int{val, i}
 		}
-	}
 
+		toFind := target - arr[i]
+
+		store[toFind] = i
+	}
 	return nil
 }

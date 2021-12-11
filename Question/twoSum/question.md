@@ -32,3 +32,53 @@
 ### Step 3: Figure out a solution without code
 
 - Brute force method of iterating and checking all pair
+
+# Solution
+
+### Brute force solution
+
+```go
+func solve(arr []int, target int) []int {
+
+	if len(arr) == 0 || len(arr) == 1 {
+		return nil
+	}
+
+	for i := 0; i < len(arr); i++ {
+		for j := i + 1; j < len(arr); j++ {
+			if target-arr[i] == arr[j] {
+				return []int{i, j}
+			}
+		}
+	}
+	return nil
+}
+```
+
+### Optimizing the brute force solution
+
+```go
+
+// For this solution we use hashmap to optimize our solution
+// We store the value in a map due to the fast lookup in map n(1)
+func twoSum(nums []int, target int) []int {
+
+  if len(nums) == 0 || len(nums) == 1 {
+    return nil
+  }
+
+	store := make(map[int]int)
+
+  for i := 0; i < len(nums); i++ {
+		if val, found := store[nums[i]]; found {
+			return []int{val, i}
+		}
+
+		toFind := target - nums[i]
+
+		store[toFind] = i
+	}
+	return nil
+}
+
+```
