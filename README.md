@@ -16,4 +16,4 @@
 
 ## Design Pattern
 
-- [SOLID](,/Design-pattern/index.md)
+- [SOLID](./Design-pattern)
