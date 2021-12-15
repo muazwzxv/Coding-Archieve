@@ -7,6 +7,20 @@
 - Translated to many OOP languages
 - Universally relevant and internalized in some language
 
+## Gamma Categorization
+
+- Design patttern are typically split into three categories
+- Creational patterns
+  - Deal with the creation (construction of object)
+  - Explicit (constructor) vs implicit(DI, reflection, etc)
+  - Wholesale (single statement) vs piecewise (step by step)
+- Structural pattern
+  - Concern with the structure (class members)
+  - Many patterns are warappers that mimic the underlying class interface
+  - Stress the importance of good API design
+- Behavioral patterns
+  - They are all different, no central theme
+
 ## SOLID Design Principles
 
 ### Single Responsibility Pattern
