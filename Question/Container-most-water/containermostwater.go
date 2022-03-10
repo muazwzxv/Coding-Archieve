@@ -33,7 +33,6 @@ func solution(height []int) int {
 		} else {
 			p2--
 		}
-
 	}
 	return max
 }
