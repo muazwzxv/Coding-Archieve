@@ -15,7 +15,6 @@
 
 ### Solution
 - Trim of the first first and last index if value 0
-- 
 
 ```go
 
