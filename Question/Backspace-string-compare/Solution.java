@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.LinkedList;
 class Solution {
     public boolean backspaceCompare(String s, String t) {
         
@@ -13,6 +15,7 @@ class Solution {
     
     public List checkString(String str) {
         LinkedList<Character> list = new LinkedList<>();
+
         
         for (int i = 0; i < str.length(); i ++) {
             Character temp = str.charAt(i);
