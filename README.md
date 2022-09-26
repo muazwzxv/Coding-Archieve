@@ -6,6 +6,7 @@
 - [Container most water](./Question/Container-most-water/question.md)
 - [Remove elements](./Question/Remove-elements/notes.md)
 - [Valid Parentheses](./Question/Valid-parentheses/notes.md)
+- [Longest Happy String](./Question/Longest-Happy-String/notes.md)
 <!-- - [Backspace string compare](./Question/Backspace-string-compare) -->
 
 ## Algorithm
