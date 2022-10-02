@@ -5,19 +5,27 @@
 
 ## Coding Question
 
+### Leetcode Easy
 - [Two sum](./Question/twoSum/question.md)
-- [Container most water](./Question/Container-most-water/question.md)
 - [Remove elements](./Question/Remove-elements/notes.md)
 - [Valid Parentheses](./Question/Valid-parentheses/notes.md)
-- [Longest Happy String](./Question/Longest-Happy-String/notes.md)
 - [Longest common prefix](./Question/Longest-common-prefix/notes.md)
 - [Palindrome Number](./Question/Palindrome-number/notes.md)
+
+### Leetcode medium
+- [Container most water](./Question/Container-most-water/question.md)
+- [Longest Happy String](./Question/Longest-Happy-String/notes.md)
 <!-- - [Backspace string compare](./Question/Backspace-string-compare) -->
 
 ## Algorithm
 
+- [Insertion sort](./Algorithm/InsertionSort/insertionSort.md)
+- [Merge sort](./Algorithm/MergeSort/mergeSort.md)
+- [Selection sort](./Algorithm/SelectionSort/selectionSort.md)
+
 ## Design Pattern & SOLID
 - [SOLID](./Design-pattern)
+- [Factory](./Design-pattern/Factory/notes.md)
 
 ## Data structure
 - [Arrays](./Datastruct/array.md)
