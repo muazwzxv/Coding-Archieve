@@ -15,10 +15,9 @@
 
 ## Algorithm
 
-## Design Pattern
-
+## Design Pattern & SOLID
 - [SOLID](./Design-pattern)
 
 ## Data structure
-
+- [Arrays](./Datastruct/array.md)
 - [Graph](./Datastruct/Graph/index.md)
