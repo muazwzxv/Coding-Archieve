@@ -1,5 +1,8 @@
 ## Just a collection of all Dats Structures, Algorithms and Coding question I learnt
 
+## Foundation
+- [Big 0 Notation](./big0.md)
+
 ## Coding Question
 
 - [Two sum](./Question/twoSum/question.md)
