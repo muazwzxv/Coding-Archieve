@@ -27,3 +27,27 @@ Input: x = 10
 Output: false
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ```
+
+
+### Solution
+```java
+class Solution {
+    public boolean isPalindrome(int x) {
+        char[] arr = String.valueOf(x).toCharArray();
+        
+        int start = 0;
+        int end = arr.length - 1;
+        
+        
+        while (start < end) {
+            if (arr[start] != arr[end]) {
+                return false;
+            }
+            start++;
+            end--;
+        }
+        
+        return true;
+    } 
+}
+```
