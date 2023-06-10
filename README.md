@@ -17,6 +17,9 @@
 - [Longest Happy String](./Question/Longest-Happy-String/notes.md)
 <!-- - [Backspace string compare](./Question/Backspace-string-compare) -->
 
+### Hackerrank Array 
+- [Hourglass 2D Array](./QUestion/hourglass-2d-array/question.md)
+
 ## Algorithm
 
 - [Insertion sort](./Algorithm/InsertionSort/insertionSort.md)
