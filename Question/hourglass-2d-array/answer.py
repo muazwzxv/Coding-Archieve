@@ -1,7 +1,6 @@
 
 
 # Question - https://www.hackerrank.com/challenges/2d-array/problem?isFullScreen=true
-
 def hourglassSum(arr):
     # Write your code here
     hourglassRow = 4 # 0, 1, 2, 3

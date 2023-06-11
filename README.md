@@ -11,6 +11,10 @@
 - [Valid Parentheses](./Question/Valid-parentheses/notes.md)
 - [Longest common prefix](./Question/Longest-common-prefix/notes.md)
 - [Palindrome Number](./Question/Palindrome-number/notes.md)
+- [Sqrt(x)](./Question/sqrt/notes.md) 
+- [Contains duplicate](./Question/contains-duplicate/notes.md)
+- [Containes duplicate II](./Question/contains-duplicate-II/notes.md)
+- [Best Time to Buy and Sell Stock](./Question/best-time-to-buy-and-sell-stock/notes.md)
 
 ### Leetcode medium
 - [Container most water](./Question/Container-most-water/question.md)
