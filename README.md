@@ -15,17 +15,18 @@
 - [Contains duplicate](./Question/contains-duplicate/notes.md)
 - [Containes duplicate II](./Question/contains-duplicate-II/notes.md)
 - [Best Time to Buy and Sell Stock](./Question/best-time-to-buy-and-sell-stock/notes.md)
+- [Remove duplicate from sorted array](./Question/remove-duplicate-from-sorted-array/notes.md)
 
 ### Leetcode medium
 - [Container most water](./Question/Container-most-water/question.md)
 - [Longest Happy String](./Question/Longest-Happy-String/notes.md)
+- [Add two number](./Question/add-two-number/notes.md)
 <!-- - [Backspace string compare](./Question/Backspace-string-compare) -->
 
 ### Hackerrank Array 
 - [Hourglass 2D Array](./QUestion/hourglass-2d-array/question.md)
 
 ## Algorithm
-
 - [Insertion sort](./Algorithm/InsertionSort/insertionSort.md)
 - [Merge sort](./Algorithm/MergeSort/mergeSort.md)
 - [Selection sort](./Algorithm/SelectionSort/selectionSort.md)
