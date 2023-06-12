@@ -32,7 +32,7 @@ So basically, what we have to do is traverse the array, until we first found a d
 
 
 ## Code
-```
+```py
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         seen = {}
