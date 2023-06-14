@@ -24,7 +24,8 @@
 <!-- - [Backspace string compare](./Question/Backspace-string-compare) -->
 
 ### Hackerrank Array 
-- [Hourglass 2D Array](./QUestion/hourglass-2d-array/question.md)
+- [Hourglass 2D Array](./Question/hourglass-2d-array/question.md)
+- [Array Rotation](./Question/array-rotation/notes.md)
 
 ## Algorithm
 - [Insertion sort](./Algorithm/InsertionSort/insertionSort.md)
