@@ -26,6 +26,8 @@
 ### Hackerrank Array 
 - [Hourglass 2D Array](./Question/hourglass-2d-array/question.md)
 - [Array Rotation](./Question/array-rotation/notes.md)
+- [Sparsed Array](./Question/sparsed-array/notes.md)
+- [New year chaos](./Question/new-year-chaos/notes.md)
 
 ## Algorithm
 - [Insertion sort](./Algorithm/InsertionSort/insertionSort.md)
@@ -39,3 +41,8 @@
 ## Data structure
 - [Arrays](./Datastruct/array.md)
 - [Graph](./Datastruct/Graph/index.md)
+
+### Binary tree
+- [Inorder traversal](./Datastruct/binary-tree/inorder-traversal/notes.md)
+- [Preorder traversal] (./Datastruct/binary-tree/preorder-traversal/notes.md)
+- [Postorder traversal] (./Datastruct/binary-tree/postorder-traversal/notes.md)

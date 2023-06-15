@@ -1,4 +1,5 @@
 
+
 def rotLeft(arr, n):
   if not arr:
       return arr
@@ -8,4 +9,4 @@ def rotLeft(arr, n):
   for i in range(n, n + length):
       rotated_array.append(arr[i % length])
 
-  return rotated_array`
+  return rotated_array
