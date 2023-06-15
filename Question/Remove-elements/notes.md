@@ -11,21 +11,18 @@ Confused why the returned value is an integer but your answer is an array?
 
 Note that the input array is passed in by reference, which means a modification to the input array will be known to the caller as well.
 
-```java
-class Solution {
-    public int removeElement(int[] nums, int val) {
-        int count = 0;
-        
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != val) {
-                nums[count++] = nums[i];
-                System.out.println(Arrays.toString(nums));
-            }
-        }
-        return count;
-    }
-}
-
+```py
+class RemoveElement:
+    def removeElement(nums: List[int], val: int) -> int:
+        # Counter for keeping track of elements other than val
+        count = 0
+        # Loop through all the elements of the array
+        for i in range(len(nums)):
+            if nums[i] != val:
+                # If the element is not val
+                nums[count] = nums[i]
+                count += 1
+        return count
 /**
 
 0 => 3

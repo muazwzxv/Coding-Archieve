@@ -37,6 +37,9 @@ class Solution {
             
             for (String val: strs) {
                 if (val.charAt(i) != current) {
+                    // All string in array must have similar prefix
+                    // once one of the element doesnt have the desired prefix, 
+                    // we return 
                     return sb.toString();
                 }
             }

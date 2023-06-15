@@ -34,7 +34,7 @@ Its important that we buy first before we sell, we wont get back the days after 
 
 
 ## Solution
-```
+```py
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         profit = 0;

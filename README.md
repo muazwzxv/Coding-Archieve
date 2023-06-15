@@ -1,6 +1,7 @@
 ## Just a collection of all Dats Structures, Algorithms and Coding question I learnt
 
 ## Foundation
+
 - [Big 0 Notation](./big0.md)
 
 ## Coding Question
@@ -44,5 +45,5 @@
 
 ### Binary tree
 - [Inorder traversal](./Datastruct/binary-tree/inorder-traversal/notes.md)
-- [Preorder traversal] (./Datastruct/binary-tree/preorder-traversal/notes.md)
-- [Postorder traversal] (./Datastruct/binary-tree/postorder-traversal/notes.md)
+- [Preorder traversal](./Datastruct/binary-tree/preorder-traversal/notes.md)
+- [Postorder traversal](./Datastruct/binary-tree/postorder-traversal/notes.md)
