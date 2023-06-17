@@ -28,7 +28,7 @@
 - [Hourglass 2D Array](./Question/hourglass-2d-array/question.md)
 - [Array Rotation](./Question/array-rotation/notes.md)
 - [Sparsed Array](./Question/sparsed-array/notes.md)
-- [New year chaos](./Question/new-year-chaos/notes.md)
+- [New year chaos](./Question/new-year-chaos/python.md)
 
 ## Algorithm
 - [Insertion sort](./Algorithm/InsertionSort/insertionSort.md)
