@@ -30,6 +30,9 @@
 - [Sparsed Array](./Question/sparsed-array/notes.md)
 - [New year chaos](./Question/new-year-chaos/python.md)
 
+### Hackerrank Hashmap
+- [Random note](./Question/random-note/notes.md)
+
 ## Algorithm
 - [Insertion sort](./Algorithm/InsertionSort/insertionSort.md)
 - [Merge sort](./Algorithm/MergeSort/mergeSort.md)
