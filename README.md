@@ -32,6 +32,7 @@
 
 ### Hackerrank Hashmap
 - [Random note](./Question/random-note/notes.md)
+- [Two strings](./Question/two-strings/notes.md)
 
 ## Algorithm
 - [Insertion sort](./Algorithm/InsertionSort/insertionSort.md)
