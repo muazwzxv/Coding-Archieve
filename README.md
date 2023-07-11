@@ -22,6 +22,7 @@
 - [Container most water](./Question/Container-most-water/question.md)
 - [Longest Happy String](./Question/Longest-Happy-String/notes.md)
 - [Add two number](./Question/add-two-number/notes.md)
+- [Reverse integer](./Question/reverse-integer/notes.md)
 <!-- - [Backspace string compare](./Question/Backspace-string-compare) -->
 
 ### Hackerrank Array 
