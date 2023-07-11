@@ -1,4 +1,4 @@
-## Just a collection of all Dats Structures, Algorithms and Coding question I learnt
+## Just a collection of all Data Structures, Algorithms and Coding question I learnt
 
 ## Foundation
 
@@ -23,6 +23,7 @@
 - [Longest Happy String](./Question/Longest-Happy-String/notes.md)
 - [Add two number](./Question/add-two-number/notes.md)
 - [Reverse integer](./Question/reverse-integer/notes.md)
+- [Group Anagram](./Question/group-anagram/notes.md)
 <!-- - [Backspace string compare](./Question/Backspace-string-compare) -->
 
 ### Hackerrank Array 
