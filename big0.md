@@ -52,16 +52,19 @@ Rule 2: Remove Constants
 
 - Removing all constants things like assignation and simple variable
 
-`function compressBoxTwice(boxes) {
+```
+function compressBoxTwice(boxes) {
   boxes.forEach(box => console.log(box))
   boxes.forEach(box => console.log(box))
 }
 // O(2n) -> O(n)
-// Still equates to O(n)`
+// Still equates to O(n)
+```
 
 Rule 3: Different terms for inputs
 
-`// n = boxes[]
+```
+// n = boxes[]
 // m = boxes2[]
 
 function compressBoxTwice(boxes, boxes2) {
@@ -78,13 +81,15 @@ function compressBoxTwice(boxes, boxes2) {
     })
   })
 }
-// O(n*m)`
+// O(n*m)
+```
 
 Rule 4: Drop non Dominants
 
 - We drop the n as supposed to the n^2 because it has less meaning
 
-`function compressBoxTwice(boxes, boxes2) {
+```
+function compressBoxTwice(boxes, boxes2) {
 
   boxes.forEach(box => console.log(box))
   
@@ -94,36 +99,43 @@ Rule 4: Drop non Dominants
     })
   })
   // O(n + n^2) => O(n^2)
-}`
+}
+```
 
 ## **Example of Time complexity**
 
 ### **O(n) Linear time**
 
-`function compressFirstBox(boxes) {
+```
+function compressFirstBox(boxes) {
   boxes.forEach(box => console.log(box))
-}`
+}
+```
 
 - as number of input increase, number of operations increase
 - n is the number of input
 
 ### **O(1) Constant time**
 
-`function compressFirstBox(boxes) {
+```
+function compressFirstBox(boxes) {
   console.log(boxes[0])
-}`
+}
+```
 
 - Given the number of n, the number of operation will always stays flat
 
 ### **O(n^2) Quadratic time**
 
-`function logPairArrays(arr) {
+```
+function logPairArrays(arr) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; i < arr.length; j++) {
       console.log(arr[i], arr[i])
     }
   }
-}`
+}
+```
 
 - Diagnosed as such when there are nested loops
 - Nested loops result in the multiplication of Big O
